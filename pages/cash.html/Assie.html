@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assie</title>
+        <style>
+        body{
+            #Assie{
+                width:100%;
+                flex-wrap:wrap;
+
+            }
+            .Assie-music{
+                width:100%;
+                position:relative;
+                flex-basis:50%;
+                margin-bottom:30px;
+                text-align:center;
+
+            }
+            .overlay{
+                width:100%;
+                height:100%;
+                cursor:pointer;
+                transition:1s;
+                opacity:0;
+                background:linear-gradient(rgba(33, 10, 239, 0.5),rgba(240, 8, 171, 0.3));
+                top:0;
+                position:absolute;
+                
+            }
+        .Assie-music img{
+            width:100%;
+            height:80%;
+        }
+        .Assie-music:hover .overlay{
+            opacity:1;
+        }
+        .Assie-text{
+            transition:1s;
+            opacity:0;
+            transform:translateX(-50%);
+            position:absolute;
+            bottom:0;
+            left:50%;
+            width:80%;
+        }
+        .Assie-music:hover .Assie-text{
+            opacity:1;
+            bottom:50%;
+        }
+        hr{
+            font-weight:30px;
+            width:150px;
+            height:3px;
+            background-color:wheat;
+            margin:auto;
+        }
+        .Assie-text p{
+            font-weight:100px;
+            font-size:20px;
+            color:white;
+        }
+        .Assie-text h{
+            color:white;
+        }
+        @media screen and (max-width:770px){
+        .Assie-text h{
+            font-size:35px;
+        }
+    }
+    #Assie{
+        flex-basis:50%;
+    }
+    .Assie-img{
+        flex-basis:50%;
+    }
+        }
+        </style>
+    </head>
+    <body>
+        <section id="Assie">
+            <div class="Assie-music">
+            <img src="music.png">
+            <div class="overlay"></div>
+        <div class="Assie-text">
+            <h>Someone to lean On</h>
+            <hr>
+            <p>Humans have a tendency to show dependency on someone they love or care about, I would say i have experienced that since i have met you. I am completely losing myself when i am with you.</p>
+        </div>
+            </div>
+        </section>
+    </body>
+</html>
