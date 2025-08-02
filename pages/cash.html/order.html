@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>order</title>
+        <style>
+        body {
+            text-align: center;
+            object-fit:cover;
+            background:rgb(183, 202, 237);
+        }
+        .container {
+            border-radius: 20px;
+            background:white;
+            border: 0px solid;
+            width: 100%;
+            max-width: 380px;
+            height:90vh;
+            margin: auto;
+            text-align: center;
+            overflow:hidden;
+            box-shadow: darkgrey;
+            border:2px rgb(111, 110, 110);
+            
+        }
+        p {
+            font-size: 16px;
+            color:rgb(70, 68, 68);
+            font-weight:lighter;
+        }
+        button  {
+            padding: 10px;
+            width: 280px;
+            height: 35px;
+            border-radius: 8px;
+            background-color: blue;
+            border: 0;
+            
+        }
+
+        .proceed{
+            color:white;
+        }
+        .text {
+            background-color: white;
+        }
+        .h {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .cancel-order:hover {
+            color: rgb(249, 157, 46);
+            cursor: pointer;
+        }
+        .cancel {
+            color:violet;
+            text-decoration:none;
+        }
+      
+        
+        .Change{
+            color: blue;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: -10px;
+            margin-left: 10px;
+            translate: 34px 0px;
+        }
+        .plan-year{
+            margin-left: 20px;
+            color: rgba(88, 85, 85, 0.885);
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .plan{
+            margin-right:41px;
+        }
+        
+        .Cancel:hover{
+            cursor:pointer;
+            background-color:lightblue;
+        }
+        .container-minor{
+            border:2px;
+            border-radius:20px;
+            padding:15px;
+            background:rgba(251, 249, 249, 0.96);
+            width:254px;
+            text-align:center;
+            margin-left:41px;
+            
+            
+        }
+        .text-plan{
+            text-align:center;
+            translate:0 -14px;
+            
+        }
+        
+        .annual-button .a {
+            border: 2px;
+        }
+
+        .cancel-order{
+            background:none;
+             color:rgb(70, 68, 68);
+             font-weight:bolder;
+        }
+
+        .music{
+            width:16px;
+            height: 16px;
+            margin-right: 210px;
+            translate:0 34px;
+            color:rgb(88, 86, 86);
+            background:rgb(215, 228, 245);
+            border-radius:25px;
+            padding:6px;
+        }
+
+        .img {
+            border-radius:0px;
+            position:relative;
+            object-fit:cover;
+        }
+
+       
+        </style>
+        </head>
+        <body style="text-align:center">
+            <div class="container">
+         <div class="image.pic">
+            <img src="Music.png" alt="Music" width="100%" height="280px" object-fit="cover" display="block" class="img">
+        
+        </div>
+        <div>
+            <h class="h">
+                 Order Summary
+            </h>
+            <p class="pp"> You can now listen to millions of songs,<br>audiobooks and podcasts on any device<br>anywhere you like!</p>
+</div>
+<div class="container-minor">
+        <div class="text-plan">
+            <div class="music-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="music">
+               <path fill-rule="evenodd" d="M19.952 1.651a.75.75 0 0 1 .298.599V16.303a3 3 0 0 1-2.176 2.884l-1.32.377a2.553 2.553 0 1 1-1.403-4.909l2.311-.66a1.5 1.5 0 0 0 1.088-1.442V6.994l-9 2.572v9.737a3 3 0 0 1-2.176 2.884l-1.32.377a2.553 2.553 0 1 1-1.402-4.909l2.31-.66a1.5 1.5 0 0 0 1.088-1.442V5.25a.75.75 0 0 1 .544-.721l10.5-3a.75.75 0 0 1 .658.122Z" clip-rule="evenodd" />
+                </svg>
+            </div>
+            <div class="plan-icon">
+            <label class="plan"><b>Annual Plan</b></label>
+            </div>
+        <div class="annual-button">    
+            <label class="plan-year">$59.99/year</label>
+            <a href="#" class="Change">Change</a>
+        </div>
+        </div>
+        </div>
+        <br>
+        <div>
+            <button class="proceed" onclick>Proceed to Payment</button>
+            </div>
+            <br>
+            <div>
+                <button class="cancel-order">
+                    Cancel Order
+                    
+                </button>
+            </div>
+    </div>
+    </body>
+</html>
